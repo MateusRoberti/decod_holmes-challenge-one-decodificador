@@ -1,0 +1,311 @@
+body {
+
+}
+
+header{
+	background: #D2B48C;
+	padding: 30px;
+}
+
+header h1{
+	/*texto*/
+	font-family: 'Courier New';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 150%;
+	color:'black';
+
+	position: absolute;
+	left: 90px;
+}
+
+header h1 b{
+	color: #2e8b57;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+}
+
+#logo{
+	/* disposição*/
+	position: absolute;
+	left: 50px;  
+	top: 30px;
+	width: 30px;
+	height: 30px;
+}
+
+.entrada-saida{
+
+	/*disposição*/
+	background: #D2B48C;
+	width: 100%; 
+	height: 50%;
+	padding: 220px 0;
+
+}
+
+#atencao{
+	/*texto*/
+	font-family: 'Courier New';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 150%;
+	color:'black';
+
+	position: absolute; 
+	left: 70px;
+	top: 500px;
+}
+
+
+#textoEntrada{
+
+	/*texto*/
+	font-family: 'Courier New';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 150%;
+	color:'black';
+
+	/*disposição*/
+	background: #D2B48C;
+	
+	position: absolute; 
+	width: 680px;
+	height: 400px;
+	left: 60px;
+	top: 90px;
+	border: none; 
+}
+
+
+#caixaSaida{
+
+	/*texto*/
+	font-family: 'Courier New';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 150%;
+	color:'black';
+
+	/* disposição*/
+	position: absolute;
+	width: 400px;
+	height: 70%;
+	left: 900px;
+	top: 90px;
+	background: #FFFFFF;
+	border-radius: 32px;
+	padding: 0 10px;
+
+}
+
+#imagem-detetive {
+
+	/* disposição*/
+	position: absolute;
+	left: 100px;  
+	top: 40px;
+	width: 200px;
+	height: 200px;
+}
+
+#textoMudado{
+	visibility: hidden;
+
+	/* disposição*/
+	position: absolute;
+	right: 50px;
+	left: 50px;  
+	top: 10px;
+	border:none;
+	height: 400px;
+
+	/*texto*/
+	font-family: 'Courier New';
+	font-style: normal;
+	font-size: 15px;
+	line-height: 19px;
+	text-align: center;
+}
+
+#nenhumTexto{
+	/* disposição*/
+	position: absolute;
+	right: 50px;
+	left: 50px;  
+	top: 260px;
+	border:none;
+	height: 100px;
+
+	/*texto*/
+	font-family: 'Courier New';
+	font-style: normal;
+	font-size: 15px;
+	line-height: 19px;
+	text-align: center;
+}
+
+#nenhumTexto b{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#copiar1{
+
+	display:  ;
+
+
+	/*texto*/
+	font-family: 'Courier New';
+	font-style: normal;
+	font-size: 15px;
+	line-height: 19px;
+	font-weight: bold;
+	text-align: center;
+	color: #2e8b57;
+
+	box-sizing: border-box;
+
+	/*disposição*/
+
+	position: absolute;
+	width: 250px;
+	height: 40px;
+	left: 72%;
+	top: 85%;
+
+
+	background: #D2B48C;
+	border: 2px solid #2e8b57;
+	border-radius: 24px;
+
+}
+
+#copiar1:hover{
+	font-size: 20px;
+}
+
+.botoes{
+
+	/*área dos botões*/
+	background: #D2B48C;
+	width: 100%; 
+	height: 40%;
+	padding: 10px 0;
+}
+
+.botoes li{
+	
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 1;
+	margin: 0px 8px;
+
+	/* Auto layout */
+
+	display: inline-block;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 24px;
+	
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	margin: 0px 24px;
+
+}
+
+
+.button1{
+	
+	
+	/*texto*/
+
+	font-family: 'Courier New';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	color: "black";
+
+
+	/*disposição*/
+
+	position: static;
+	width: 328px;
+	height: 67px;
+	left: 100px;
+	top: 0px;
+
+	/* sea-green */
+	background: #2e8b57;
+	border-radius: 24px;
+
+
+}
+
+.button1:hover{
+	font-size: 20px;
+}
+
+.button2{
+
+
+	
+	/*texto*/
+	font-family: 'Courier New';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	color: "black";
+
+
+	/*disposição*/
+
+	position: static;
+	width: 328px;
+	height: 67px;
+	left: 360px;
+	top: 0px;
+
+	
+	background: #2e8b57;
+	border: 2px solid;
+	border-radius: 24px;
+
+
+}
+
+.button2:hover{
+	font-size: 20px;
+}
+
+footer{
+	/*texto*/
+	font-family: 'Calibri';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	color: "black";
+}
+
+.perfis-pessoais{
+	/* disposição*/
+	position: inline-block;
+	width: 20px;
+	height: 20px;
+}

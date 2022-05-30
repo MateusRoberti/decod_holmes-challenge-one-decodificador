@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang= "pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Decod_Holmes</title>
+
+	<link rel="icon" type="imagem/png" href="icone.png" />
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style_decod2.css"> 
+</head>
+
+<body>
+
+	<header>
+
+		<img src="icone.png" id="logo">
+		<h1><b>Decod_</b>Holmes</h1>
+	</header>
+
+	<main>
+		<section class="entrada-saida">
+			<textarea cols="50" rows="100" type="text" id="textoEntrada"  placeholder="Digite seu texto"></textarea> 
+
+			<b id="atencao">ATENÇÃO: apenas letras minúsculas e sem acento.</b>
+
+			<div id="caixaSaida" > 
+				<img src="detetive.png" id="imagem-detetive"> 
+				<div id="nenhumTexto"><b>Nenhum texto encontrado.</b> Digite ao lado a mensagem que deseja criptografar ou descriptografar</div>
+				<textarea id="textoMudado"> </textarea>
+			</div>
+
+			<button id="copiar1" onclick="copia()"> Copiar</button>
+		</section>
+
+
+		<section class="botoes">
+
+			<li><button class="button1" onclick="criptografar()"> Criptografar</button></li> 
+
+			<li><button class="button2" onclick="descriptografar()"> Descriptografar</button></li>
+
+		</section>
+	</main>
+
+	<footer>Created by Mateus de Souza |
+		<a href="https://github.com/MateusRoberti"><img src="github.png" class="perfis-pessoais"></a>
+		<a href="https://www.linkedin.com/in/mateus-roberti-687291165"><img src="linkedin.png" class="perfis-pessoais"></a>
+
+	</footer>
+
+
+	<script src="js/java_decod.js"></script>
+
+</body>	
+
+</html>
+
+
+
+
+
